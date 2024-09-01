@@ -1,2 +1,2 @@
-# Wizytówka
-## opis
+# Bussiness card
+## Feel free to contact me! ;)

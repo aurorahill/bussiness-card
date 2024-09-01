@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: calc(100vh - 20px);
+  background-image: url(./snowflakes-1236247_960_720.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reddit-mono {
+  font-family: 'Reddit Mono';
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.zeyada-regular {
+  font-family: 'Zeyada', cursive;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.65);
+  margin: 20px;
+  padding: 30px 20px 30px 10px;
+  width: 420px;
+  height: 210px;
+
+  color: #353535;
+  box-shadow: 1px 1px 5px rgb(150, 150, 150);
+}
+
+.username {
+  width: 120px;
+  padding-right: 8px;
+  text-align: center;
+  border-right: 1px solid #464646;
+}
+
+.name {
+  margin-top: 55px;
+  margin-bottom: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.last-name {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.contact {
+  margin: 10px 0px 0px 15px;
+}
+
+.contact p {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.fa-solid,
+.fa-brands {
+  margin-right: 5px;
+}
+
+a {
+  color: #353535;
+  text-decoration: none;
+}
+
+@media (max-width: 430px) {
+}
